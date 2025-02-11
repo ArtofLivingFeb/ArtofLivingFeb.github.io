@@ -9,12 +9,12 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-}
 #logo {
     width: 150px; /* Adjust to your desired width */
     height: auto; /* Maintain aspect ratio */
+}
 }
 
 
@@ -55,9 +55,9 @@ main p {
 /* Footer section */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+    padding: 0.5px;
+    background-color: white;
+    color: #333;
     position: fixed;
     width: 100%;
     bottom: 0;
