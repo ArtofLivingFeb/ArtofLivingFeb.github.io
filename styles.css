@@ -11,29 +11,8 @@ header {
     color: white;
     padding: 30px;
     text-align: center;
-#logo {
-    width: 150px; /* Adjust to your desired width */
-    height: auto; /* Maintain aspect ratio */
-}
 }
 
-
-/* Navigation menu */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 /* Main content area */
 main {
@@ -52,13 +31,17 @@ main p {
     color: #555;
 }
 
+main ul {
+    color: #555;
+}
+
+
 /* Footer section */
 footer {
+    width: 100%;  /* Adjust this percentage to control the width */
+    margin: 0 auto;  /* Center it horizontally */
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 0.5px;
-    background-color: white;
-    color: #333;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
